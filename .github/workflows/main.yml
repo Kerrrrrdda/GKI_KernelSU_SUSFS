@@ -51,13 +51,6 @@ on:
         required: true
         type: string
         default: All
-      page_size:
-        description: "ARM64 page size. 16k requires explicitly selecting Kernel Version 6.1.x-android14, 6.6.x-android15 or 6.12.x-android16 (All is rejected)"
-        type: choice
-        options:
-          - 4k
-          - 16k
-        default: 4k
       brand_name:
         description: "Kernel Branding (empty = stock version string)"
         type: string
