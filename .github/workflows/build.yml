@@ -76,11 +76,6 @@ on:
         required: false
         type: boolean
         default: true
-      page_size:
-        description: "ARM64 page size: 4k (default) or 16k (Kleaf --page_size)"
-        required: false
-        type: string
-        default: "4k"
 
 jobs:
   build-gki:
